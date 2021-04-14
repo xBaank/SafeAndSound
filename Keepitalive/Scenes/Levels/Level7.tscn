@@ -1,0 +1,135 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://Menu/EndScreen.gd" type="Script" id=1]
+[ext_resource path="res://Scenes/Hamster.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Scenes/Player.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Menu/Menu3.png" type="Texture" id=4]
+[ext_resource path="res://Scenes/Enemy1.tscn" type="PackedScene" id=5]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource( 1 )
+
+[node name="Hamster" parent="." instance=ExtResource( 2 )]
+position = Vector2( 160, 72 )
+
+[node name="Player" parent="." instance=ExtResource( 3 )]
+position = Vector2( 160, 64 )
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = -8.0
+margin_right = 632.0
+margin_bottom = 212.0
+custom_constants/margin_right = 320
+custom_constants/margin_bottom = 180
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextureRect" type="TextureRect" parent="MarginContainer"]
+margin_right = 320.0
+margin_bottom = 32.0
+texture = ExtResource( 4 )
+
+[node name="Enemy16" parent="." instance=ExtResource( 5 )]
+position = Vector2( 64, 112 )
+
+[node name="Enemy15" parent="." instance=ExtResource( 5 )]
+position = Vector2( 64, 80 )
+
+[node name="Enemy14" parent="." instance=ExtResource( 5 )]
+position = Vector2( 64, 48 )
+
+[node name="Enemy22" parent="." instance=ExtResource( 5 )]
+position = Vector2( 104, 112 )
+
+[node name="Enemy21" parent="." instance=ExtResource( 5 )]
+position = Vector2( 120, 72 )
+
+[node name="Enemy20" parent="." instance=ExtResource( 5 )]
+position = Vector2( 104, 48 )
+
+[node name="Enemy13" parent="." instance=ExtResource( 5 )]
+position = Vector2( 24, 112 )
+
+[node name="Enemy12" parent="." instance=ExtResource( 5 )]
+position = Vector2( 24, 80 )
+
+[node name="Enemy11" parent="." instance=ExtResource( 5 )]
+position = Vector2( 24, 48 )
+
+[node name="Enemy19" parent="." instance=ExtResource( 5 )]
+position = Vector2( 224, 104 )
+
+[node name="Enemy18" parent="." instance=ExtResource( 5 )]
+position = Vector2( 224, 72 )
+
+[node name="Enemy17" parent="." instance=ExtResource( 5 )]
+position = Vector2( 224, 40 )
+
+[node name="Enemy28" parent="." instance=ExtResource( 5 )]
+position = Vector2( 264, 104 )
+
+[node name="Enemy27" parent="." instance=ExtResource( 5 )]
+position = Vector2( 264, 72 )
+
+[node name="Enemy26" parent="." instance=ExtResource( 5 )]
+position = Vector2( 264, 40 )
+
+[node name="Enemy25" parent="." instance=ExtResource( 5 )]
+position = Vector2( 304, 104 )
+
+[node name="Enemy24" parent="." instance=ExtResource( 5 )]
+position = Vector2( 304, 72 )
+
+[node name="Enemy23" parent="." instance=ExtResource( 5 )]
+position = Vector2( 304, 40 )
+
+[node name="Enemy4" parent="." instance=ExtResource( 5 )]
+position = Vector2( 72, 40 )
+
+[node name="Enemy5" parent="." instance=ExtResource( 5 )]
+position = Vector2( 128, 40 )
+
+[node name="Enemy7" parent="." instance=ExtResource( 5 )]
+position = Vector2( 200, 64 )
+
+[node name="Enemy6" parent="." instance=ExtResource( 5 )]
+position = Vector2( 248, 40 )
+
+[node name="Enemy29" parent="." instance=ExtResource( 5 )]
+position = Vector2( 72, 8 )
+
+[node name="Enemy10" parent="." instance=ExtResource( 5 )]
+position = Vector2( 128, 8 )
+
+[node name="Enemy9" parent="." instance=ExtResource( 5 )]
+position = Vector2( 192, 8 )
+
+[node name="Enemy8" parent="." instance=ExtResource( 5 )]
+position = Vector2( 248, 8 )
+
+[node name="Enemy37" parent="." instance=ExtResource( 5 )]
+position = Vector2( 72, 160 )
+
+[node name="Enemy36" parent="." instance=ExtResource( 5 )]
+position = Vector2( 128, 160 )
+
+[node name="Enemy35" parent="." instance=ExtResource( 5 )]
+position = Vector2( 192, 160 )
+
+[node name="Enemy34" parent="." instance=ExtResource( 5 )]
+position = Vector2( 248, 160 )
+
+[node name="Enemy33" parent="." instance=ExtResource( 5 )]
+position = Vector2( 72, 128 )
+
+[node name="Enemy32" parent="." instance=ExtResource( 5 )]
+position = Vector2( 128, 128 )
+
+[node name="Enemy31" parent="." instance=ExtResource( 5 )]
+position = Vector2( 192, 128 )
+
+[node name="Enemy30" parent="." instance=ExtResource( 5 )]
+position = Vector2( 248, 128 )
